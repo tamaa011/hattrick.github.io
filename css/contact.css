@@ -1,0 +1,571 @@
+body {
+    overflow-x: hidden;
+}
+/*/Start navbar/*/
+.one {
+        border-top: 4px solid #FF0000;
+        margin-right: -14px;
+
+}
+.navbar-default {
+    background-color: #FFFFFF;
+    border-color: transparent;
+    padding-bottom: 2px;
+    padding-top: 9px;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: #FFF;
+
+}
+.navbar-default .navbar-nav>li>a:hover{color:#FF0000;}
+.navbar .collapse .nav li .active {
+    color:#FF0000;
+    border-bottom: 2px solid #FF0000;
+}
+.navbar .collapse .nav li .bor {
+    height: 45px;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    border-radius: 8px;
+}
+.navbar-default .navbar-nav > li > a{
+	color: #241E1E;
+	font-size: 20px;
+    margin-top: -10px;
+    padding: 13px;
+    margin-bottom: 9px;
+    margin-left: 20px;
+    
+}
+.navbar-header img{
+	padding-top: 5px;
+    margin-top: -5px;
+}
+.navbar-right{
+	padding-top: 15px;
+    
+}
+
+/*/End navbar/*/
+
+
+/*start contact*/
+.form {
+  width: 400px;
+  margin:auto;
+  margin-top: 5em;
+  margin-bottom: 6em;
+  padding: 1.25em;
+}
+
+h3 {
+  font-size: 2.98em;
+  margin-bottom: .8em;
+  margin-top: .4em;
+  font-weight: 100;
+    text-align: center;
+    color: #FF0000;
+}
+
+.btn-primary {
+  box-shadow: 0; 
+  border: none; 
+  background-color: #FF0000;
+  border-color: #FF0000;
+  color: #ffffff;
+  outline: none;
+  -webkit-font-smoothing: subpixel-antialiased;
+  transition: all .5s;
+  padding: 10px 19px;
+  font-size: 17px;
+  line-height: 1.471;
+  width: 80%;
+  border-radius: 3px;
+  text-transform: uppercase;
+  margin: auto;
+  margin-top: 1.44em;
+  margin-bottom: .55em;
+  display: inherit;
+}
+
+.btn-primary:hover {
+  background-color: #FF0000;
+}
+
+.form-group {
+  position: relative;
+  opacity: 1;
+  transition: .6s;
+}
+
+.input-field-icon {
+  color: #F5F5F5;
+  font-size: 25px;
+  position: absolute;
+  right: 10px;
+  bottom: 12px;
+  transition: .6s;
+}
+
+.form-control {
+  transition: opacity .6s;
+  opacity: 1;
+  border: 0;
+  border-radius: 0;
+  background: #F5F5F5;
+  font-size: 15px;
+  line-height: 1.467;
+  -webkit-appearance: none;
+}
+
+input, textarea {
+  transition: all 800ms;
+  font-family: "Roboto";
+  resize: none;  /* removes the resize handle */
+  overflow: auto; /* removes default scrolling bars in IE */
+  outline:none; 
+  font-family:inherit; 
+  box-sizing:border-box;
+/*  width: 100%;*/
+  padding: 0px 4px;
+  margin-top: 1.25em;
+}
+
+
+.has-error input, .has-error textarea {
+  color: #ff1800;
+  border-color: #e74c3c;
+}
+
+.has-error .input-field-icon {
+  color: #ff1800;
+}
+
+.has-success input, .has-success textarea {
+  color: green;
+  border-color: green;
+}
+
+.has-success .input-field-icon {
+  color: green;
+}
+
+
+input:focus, textarea:focus {
+  border-color: #48c9b0;
+  color: #34495e;
+}
+
+input:focus + .input-field-icon {
+  color: #34495e;
+}
+
+textarea.form-control {
+  height: 120px;
+  transition: .6s;
+}
+
+textarea.form-control:focus {
+  height: 200px;
+  border-color: #48c9b0;
+}
+
+.social {
+  display: block;
+  margin: auto;
+  width: 250px;
+}
+
+.social li {
+  display: inline-block;
+  list-style: none;
+  margin: auto;
+  margin-right: 10px;
+}
+
+.social li a {
+  display:block;
+  text-decoration: none;
+  color: #999;
+  border: 2px solid #999;
+  border-radius: 100%;
+  font-size: 26px;
+  width: 34px;
+  padding: 3px;
+  text-align: center;
+  transition: all .4s;
+}
+
+.social li a:hover {
+  background: #999;
+  color: white;
+}
+
+.social li a span {
+  margin-top: 4px;
+  text-align: center;
+}
+
+
+@media (max-width: 600px) {
+  .form {
+    width: 90%;
+    margin-top: 12%;
+  }
+}
+.p {
+    display: none;
+    text-align: center;
+    font-size: 50px;
+    
+    
+}
+/*end contact*/
+/*/start footer/*/
+footer{
+    background-image: url(../img/Group%20839.png);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    position:relative;
+    margin-top: 30px;
+}
+
+footer .first {
+    color:  white;
+    margin-top: 30%;
+}
+footer i {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color:  white;
+    float: left;
+    margin-left: -10px;
+}
+footer i span {
+    margin-left: 8px;
+}
+footer .sec {
+    text-align: center;
+    margin-top: 30%;
+}
+.sec .h1 {
+    color: white;
+    font-size: 25px;
+}
+
+.sec ul li {
+    list-style-type: none;
+    text-decoration: none;
+        margin-top: 8px;
+
+}
+.sec ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+footer .trd{
+    margin-top: 30%;
+}
+.trd .h1 {
+    color: white;
+    font-size: 25px;
+}
+
+.trd ul li {
+    list-style-type: none;
+    text-decoration: none;
+        margin-top: 8px;
+
+}
+.trd ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.social-media-footer i{
+    font-size: 25px;
+    border-radius: 50%;
+    color: white;
+    float: right;
+    margin-top: 20px;
+}
+
+
+.social-media-footer a{
+	display: block;
+	width: 42px;
+}
+footer .ed {
+    margin-bottom: -50px
+}
+/*/end footer/*/
+.card {
+  
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+/*model*/
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 6px 12px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border-radius: 10px;
+    border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+.cancelbtn, .signupbtn {
+  background-color: #FF0000;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #fff;
+  padding-top: 50px;
+    
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 1% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  width: 100%; /* Could be more or less, depending on screen size */
+}
+ 
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 70px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f44336;
+    z-index: 99;
+    opacity: 1;
+}
+
+.close:hover {
+  color: #f44336;
+  cursor: pointer;
+    opacity: 1;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+/*model2*/
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.cancelbtn2, .logi {
+  background-color: #FF0000;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn2 {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: auto;
+  border-radius: 50%;
+}
+
+.container2 {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(255, 255, 255, 0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content2 {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close2 {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+    cursor: pointer;
+    color: red;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn2 {
+     width: 100%;
+  }
+}
+/*model2*/
+
+/*pass valid*/
+/*# sourceMappingURL=maps/style.css.map */
+#message {
+  display:none;
+  color: #000;
+  margin-top: 10px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+ #message p {
+  font-size: 18px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+   
+}
+.valid:before {
+  position: relative;
+  left: -15px;
+  content: "✔";
+}
+.invalid:before {
+  position: relative;
+  left: -15px;
+  content: "✖";
+}
+/*pass valid*/
